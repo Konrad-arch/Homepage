@@ -1,0 +1,20 @@
+.menu-tab {
+  margin-bottom: 1em;
+  border: 0;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  font-size: 28px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.menu-tab:hover {
+  background-color: chartreuse;
+}
+
+.menu-tab-active,
+.menu-tab-active:hover {
+  background-color: rgba(25, 0, 255, 0.479);
+  color: hsl(0, 0%, 96%);
+}

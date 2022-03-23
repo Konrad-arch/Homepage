@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/body.css" />
+  <link rel="stylesheet" href="style/button.css" />
+  <link rel="stylesheet" href="style/dark.css" />
+  <link rel="stylesheet" href="style/footer.css" />
+  <link rel="stylesheet" href="style/menu-tab.css" />
+  <link rel="stylesheet" href="style/menu.css" />
+  <link rel="stylesheet" href="style/naglowek.css" />
+  <link rel="stylesheet" href="style/table.css" />
+  <link rel="stylesheet" href="style/wrapper.css" />
+  <script defer src="script/script.js"></script>
+  <title>My homepage</title>
+</head>
+
+<body class="body" id="up">
+  <div class="wrapper">
+    <header>
+      <h1>Konrad Kapuściński</h1>
+    </header>
+
+
+    <nav class="menu-tabs">
+      <button data-id="first-tab" onclick="showInfo('first-tab')" class="menu-tab menu-tab-active">
+        O mnie
+      </button>
+      <button data-id="second-tab" onclick="showInfo('second-tab')" class="menu-tab">
+        Historia
+      </button>
+      <button data-id="third-tab" onclick="showInfo('third-tab')" class="menu-tab">
+        Niespodzianka
+      </button>
+    </nav>
+
+
+    <div>
+      <button class="button-none">Przełącz na <span class="themeName">ciemne</span> tło</button>
+    </div>
+
+
+    <aside class="menu">
+
+      <p><span>Spis treści</span></p>
+      <ul>
+        <li><a href="#first-tab">Poznajmy się</a>
+        <li><a href="#Lista">Lista filmów</a>
+        <li><a href="#up">Wróć do początku</a>
+      </ul>
+
+    </aside>
+
+    <section class="menu-section" id="first-tab">
+      <h2>Poznajmy się!</h2>
+      <img width="200" height="200" src="https://i.postimg.cc/Y98NzB3Y/Konrad.jpg" alt="" />
+      <p>Cześć! Nazywam się Konrad i mam 26 lat.</p>
+      <p>
+        Zacząłem swoją przygodę z programowaniem już jakiś czas temu, lecz
+        miałem dość długą przerwę, natomiast po kilku latach wracam. W końcu
+        czas pozwolił na to, abym zaczął robić to co lubię. nie spodziewałem
+        się aż tak dużych zmian i ułatwień w programowaniu i teraz trzeba się
+        przyzwyczaić.
+      </p>
+      <p>
+        Programowanie zaczynałem od języka C++, lecz kilka lat przerwy od
+        kodowania i nagle okazało się, że pozapominało się wiele rzeczy.
+      </p>
+      <p>
+        <i>Uwielbiam kino, więc co wieczór rozsiadam się wygodnie i włączam
+          dobry film.</i>
+      </p>
+      <p>
+        W wolnej chwili jestem amatorskim graczem
+        <strong>Apex legends</strong> :)
+      </p>
+      <div class="lista">
+        <div id="Lista">
+          <table>
+            <tr>
+              <th>Lista filmów:</th>
+            </tr>
+          </table>
+        </div>
+        <table>
+          <tr>
+            <th>Filmy fantasy</th>
+          </tr>
+        </table>
+        <table class="table">
+          <tr>
+            <td>Fantastyczne zwierzęta i jak je znaleźć</td>
+          </tr>
+          <tr>
+            <td>Fantastyczne zwierzęta: Zbrodnie Grindelwalda</td>
+          </tr>
+          <tr>
+            <td>Fantastyczne zwierzęta: Tajemnice Dumbledore’a</td>
+          </tr>
+          <tr>
+            <td>Harry Potter i Kamień Filozoficzny</td>
+          </tr>
+          <tr>
+            <td>Harry Potter i Komnata Tajemnic</td>
+          </tr>
+          <tr>
+            <td>Harry Potter i więzień Azkabanu</td>
+          </tr>
+          <tr>
+            <td>Harry Potter i Czara Ognia</td>
+          </tr>
+          <tr>
+            <td>Harry Potter i Zakon Feniksa</td>
+          </tr>
+          <tr>
+            <td>Harry Potter i Książę Półkrwi</td>
+          </tr>
+          <tr>
+            <td>Harry Potter i Insygnia Śmierci: Część I</td>
+          </tr>
+          <tr>
+            <td>Harry Potter i Insygnia Śmierci: Część II</td>
+          </tr>
+        </table>
+      </div>
+      <p>
+        <span style="color: crimson">Zapraszam do kolejnej zakładki gdzie opowiem o pewnej
+          historii</span>
+      </p>
+    </section>
+    <section class="menu-section" id="second-tab" style="display: none">
+      <h4>Historia pewnego informatyka</h4>
+      <p>Pewien <b>informatyk</b> poszedł na ryby.</p>
+      <p>Złapał złotą rybkę, która obiecała</p>
+      <p>spełnić tradycyjnie trzy życzenia</p>
+      <p>Informatyk mówi:</p>
+      <p>-Żeby był pokój na świecie.</p>
+      <p>-Za trudne.</p>
+      <p>
+        -No to, aby <b><u>windows</u></b> się nie zacinał
+      </p>
+      <p>-To już niech będzie ten pokój na świecie</p>
+    </section>
+    <section class="menu-section" id="third-tab" style="display: none">
+      <h4>Dla umilenia czasu :)</h4>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/F5tSoaJ93ac" title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </section>
+  </div>
+
+
+  <footer class="footer">Prawa autorskie zastrzeżone 22.22</footer>
+</body>
+
+</html>

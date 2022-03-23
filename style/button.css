@@ -1,0 +1,13 @@
+.button-none {
+  margin-bottom: 1em;
+  border: 0;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.button-none:hover {
+  background-color: aquamarine;
+}
